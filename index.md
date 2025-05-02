@@ -6,6 +6,6 @@
 
 # Posts
 -----------------------------------
-## [This is a test post.](yinzhoux.github.io)
+## [This is a test post.](yinzhoux.github.io/test)
 
 -----------------------------------
