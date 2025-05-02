@@ -1,8 +1,11 @@
 # Profile
-+ Yinzhoux
++ **Yinzhoux**
 
-- School: Tsinghua University
-- Major: Computer Science and Technology
+- School: **Tsinghua University**
+- Major: **Computer Science and Technology**
 
 # Posts
-[<button>test</button>](https://yinzhoux.github.io/test)
+-----------------------------------
+## [This is a test post.](yinzhoux.github.io)
+
+-----------------------------------
