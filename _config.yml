@@ -1,3 +1,8 @@
-title: yinzhoux's homepage
-author: yinzhoux
-description: Bookmark this to keep an eye on my project updates!
+title: Yinzhoux's Blog
+author: Yinzhoux
+email: your@email.com
+description: >- 
+  A simple blog powered by GitHub Pages and Jekyll.
+baseurl: "" 
+url: "https://yinzhoux.github.io"
+theme: minima

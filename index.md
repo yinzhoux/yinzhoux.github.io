@@ -1,11 +1,10 @@
-# Profile
-+ **Yinzhoux**
+---
+layout: home
+title: Welcome
+---
 
-- School: **Tsinghua University**
-- Major: **Computer Science and Technology**
+# 👋 Welcome
 
-# Posts
------------------------------------
-## [This is a test post.](https://yinzhoux.github.io/test)
+Hi, I’m **Yinzhoux**, a CS student at Tsinghua University.
 
------------------------------------
+Visit the [about](about) page to learn more.
