@@ -2,4 +2,7 @@
 + Yinzhoux
 
 - School: Tsinghua University
-- major: Computer Science And Techology
+- Major: Computer Science and Technology
+
+# Posts
+[<button>test</button>](https://yinzhoux.github.io/test)
