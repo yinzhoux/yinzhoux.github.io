@@ -1,127 +1,38 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>yinzhoux</title>
-<style>
-  /* 全局样式 */
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: "Segoe UI", Arial, sans-serif;
-    background: #0f0f0f;
-    color: #fff;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085');
-    background-size: cover;
-    background-position: center;
-  }
-
-  /* 半透明暗化层 */
-  .overlay {
-    position: fixed;
-    inset: 0;
-    background: rgba(0,0,0,0.6);
-    backdrop-filter: blur(8px);
-    z-index: 0;
-  }
-
-  /* 中间玻璃卡片 */
-  .container {
-    position: relative;
-    width: 50%;
-    min-width: 320px;
-    max-width: 900px;
-    padding: 30px;
-    border-radius: 20px;
-    background: rgba(255, 255, 255, 0.06);
-    backdrop-filter: blur(15px);
-    box-shadow: 0 8px 32px rgba(0,0,0,0.4);
-    z-index: 1;
-    text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-
-  /* 悬停微浮起效果 */
-  .container:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 40px rgba(0,0,0,0.6);
-  }
-
-  /* 标题与副标题 */
-  h1 {
-    margin: 0;
-    font-size: 2.2rem;
-  }
-  p.subtitle {
-    margin-top: 8px;
-    font-size: 1rem;
-    opacity: 0.85;
-  }
-
-  /* 导航按钮 */
-  nav {
-    margin-top: 25px;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    flex-wrap: wrap;
-  }
-  nav a {
-    text-decoration: none;
-    color: #fff;
-    padding: 8px 16px;
-    border-radius: 10px;
-    background: rgba(255,255,255,0.05);
-    transition: 0.3s;
-    font-size: 0.95rem;
-  }
-  nav a:hover {
-    background: rgba(255,255,255,0.2);
-  }
-
-  /* 简约内容区域 */
-  section {
-    margin-top: 25px;
-    font-size: 0.95rem;
-    line-height: 1.6;
-    opacity: 0.9;
-  }
-
-  footer {
-    margin-top: 30px;
-    font-size: 0.8rem;
-    opacity: 0.6;
-  }
-</style>
+<link rel="stylesheet" href="project_card.css">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="overlay"></div>
   <div class="container">
-    <h1>隐舟</h1>
+    <h1>Yinzhoux</h1>
     <p class="subtitle">EMPTY</p>
 
     <nav>
-      <!-- <a href="#about">关于我</a> -->
-      <!-- <a href="#skills">技能</a> -->
-      <!-- <a href="#projects">项目</a> -->
-      <!-- <a href="#contact">联系</a> -->
-    </nav>
+      </nav>
 
     <section id="about">
-      你好！我是一名计算机系学生！
+      Hello! I am a Computer Science student.
+    </section>
+      
+    <section id="projects" class="showcase">
+      <h2>My Projects</h2>
+      <div class="project-grid">
+        <a href="wordle/index.html" class="project-card">
+          <h3>Wordle Game</h3>
+          <p>One of my main assignments for a short-term Rust course. A classic word-guessing puzzle game to challenge your vocabulary.</p>
+        </a>
+
+        </div>
     </section>
 
-    <ul>
-      <li><a href="wordle/index.html">Wordle 游戏</a></li>
-    </ul>
-
     <footer>
-      &copy; 2025 隐舟 | 个人主页
+      &copy; 2025 Yinzhoux | Personal Homepage
     </footer>
   </div>
 </body>

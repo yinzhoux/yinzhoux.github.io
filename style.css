@@ -1,0 +1,92 @@
+/* 全局样式 */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #0f0f0f;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085');
+  background-size: cover;
+  background-position: center;
+}
+
+/* 半透明暗化层 */
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(8px);
+  z-index: 0;
+}
+
+/* 中间玻璃卡片 */
+.container {
+  position: relative;
+  width: 50%;
+  min-width: 320px;
+  max-width: 900px;
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+  z-index: 1;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* 悬停微浮起效果 */
+.container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.6);
+}
+
+/* 标题与副标题 */
+h1 {
+  margin: 0;
+  font-size: 2.2rem;
+}
+p.subtitle {
+  margin-top: 8px;
+  font-size: 1rem;
+  opacity: 0.85;
+}
+
+/* 导航按钮 */
+nav {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.05);
+  transition: 0.3s;
+  font-size: 0.95rem;
+}
+nav a:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+/* 简约内容区域 */
+section {
+  margin-top: 25px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
