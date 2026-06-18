@@ -6,15 +6,28 @@ h1 {
   margin-left: 2.5%;
 }
 
-.about {
-  margin-left: 4%;
-  line-height: 5%;
+hr {
+  border: none;
+  border-top: 1px solid black;
+  margin: 40px 5%;
 }
 
+.about {
+  margin-left: 4%;
+  margin-right: 4%;
+  line-height: 5%;
+}
+.blog-preface {
+    /* border: 1px solid #000000; */
+    display: block;
+    text-indent: 2em;
+}
 .wrapper {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 main {

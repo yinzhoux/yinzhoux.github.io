@@ -1,0 +1,16 @@
+.article-style {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.date-style {
+    margin-left: 2%;
+}
+
+p {
+    margin: 1%;
+    text-indent: 2em;
+}
